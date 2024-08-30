@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #5F9EA0; /* Color celeste de la barra de navegación */
+    height: 50px;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.hero {
+    background-color: #D3D3D3; /* Color gris de la sección superior */
+    padding: 20px 0;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-block {
+    background-color: #C0C0C0; /* Color gris claro del bloque de texto */
+    width: 45%;
+    height: 150px;
+}
+
+.form-block {
+    background-color: #D3D3D3; /* Color gris de los campos de formulario */
+    width: 45%;
+    height: 100px;
+}
+
+.button-block {
+    background-color: #FFA07A; /* Color salmón del botón */
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.left-content, .center-content, .right-content {
+    height: 150px;
+    margin: 0 10px;
+}
+
+.left-content {
+    background-color: #ADD8E6; /* Color celeste */
+    width: 33%;
+}
+
+.center-content {
+    background-color: #696969; /* Color gris oscuro */
+    width: 33%;
+}
+
+.right-content {
+    background-color: #D3D3D3; /* Color gris claro */
+    width: 33%;
+}
+
+.gallery {
+    background-color: #FFA07A; /* Color salmón */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.gallery-item {
+    background-color: white; /* Color blanco de las cajas de la galería */
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF; /* Color blanco del footer */
+    padding: 20px 0;
+}
+
+.footer-links {
+    width: 30%;
+    height: 50px;
+    background-color: #D3D3D3; /* Color gris de las cajas de links del footer */
+}
