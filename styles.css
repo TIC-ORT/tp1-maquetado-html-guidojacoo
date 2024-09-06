@@ -1,8 +1,5 @@
 body, html {
     margin: 0;
-
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
 }
 
 header {
@@ -45,7 +42,7 @@ header {
 
 .sidebar {
     height: 130vh;
-    background-color: #D3D3D3;
+    background-color: rgb(209, 204, 204);
     position: relative;
     left: 900px;
     width: 200px;
@@ -107,4 +104,22 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.texto-sidebar {
+    width: 60%;
+    height: 20px;
+    background-color: #A9A9AA;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+}
+.textitos-sidebar {
+    position: relative;
+    left: 15px;
+    padding-top: 30px;
+    color: white;
 }
